@@ -1,19 +1,19 @@
-Tutorial for Synthesizer and Test Scripts
+###Tutorial for Synthesizer and Test Scripts
 
-1. First start the Jack client with the following command:
+1. First start the Jack client with the following command:<br />
 `$ jackd -d also`
 
-2. Next you need to start up webmapper. First switch to the dependencies/webmapper directory and run the following command:
+2. Next you need to start up webmapper. First switch to the dependencies/webmapper directory and run the following command:<br />
 `$ python webmapper.py`
 
 3. Now you can open the webmapper user interface in your browser by going to localhost:portnumber, replacing port number with the number that appears in your terminal.
 
-4. Next you can run one of the dummy data python scripts with either of the following commands:
-`$ python square_wave_test.py`
+4. Next you can run one of the dummy data python scripts with either of the following commands:<br />
+`$ python square_wave_test.py`<br />
 `$python ramp.py`
 
-5. Next you need to run the synthesizer with the following sequence of commands:
-`$ g++ karplus_strong.cpp`
+5. Next you need to run the synthesizer with the following sequence of commands:<br />
+`$ g++ karplus_strong.cpp`<br />
 `$ ./a.out`
 
 6. Now you can go to the web mapper UI and connect the lib mapper devices, namely the output device from the python dummy data script and the synthesizer input device. 
