@@ -1,4 +1,4 @@
-###Tutorial for Synthesizer and Test Scripts
+## Tutorial for Synthesizer and Test Scripts
 
 1. First start the Jack client with the following command:<br />
 `$ jackd -d also`
